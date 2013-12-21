@@ -64,7 +64,7 @@ function prompt_git() {
       END {print r}'
   )"
   if [[ "$flags" ]]; then
-    output="$output$c1:$c0$flags"
+    output="$output$c1:$c2$flags"
   fi
   echo "$c1[$c0$output$c1]$c9"
 }
